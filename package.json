@@ -1,11 +1,24 @@
 {
   "name": "vueswifttag",
   "version": "0.1.0",
-  "private": true,
+  "main": "dist/VueSwiftTag.common.js",
+  "private": false,
+  "author": "Areis <Liu_Areis@syscom.com.tw>",
+  "files": [
+    "dist/*",
+    "src/*",
+    "public/*"
+  ],
+  "keywords": [
+    "Swift Tag",
+    "快捷標籤",
+    "跳轉標籤"
+  ],
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "build": "vue-cli-service build --target lib --name VueSwiftTag ./src/components/index.js",
+    "lint": "vue-cli-service lint",
+    "build:doc": "vue-cli-service build ./src/main.js --dest docs --mode development"
   },
   "dependencies": {
     "core-js": "^3.6.5",
