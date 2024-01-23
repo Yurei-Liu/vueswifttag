@@ -1,6 +1,6 @@
 {
   "name": "vueswifttag",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "dist/VueSwiftTag.common.js",
   "private": false,
   "author": "Areis <Liu_Areis@syscom.com.tw>",
