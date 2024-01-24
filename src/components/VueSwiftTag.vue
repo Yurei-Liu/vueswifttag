@@ -8,7 +8,7 @@
         :style="'order:' + tagItem.order"
         @click="toBlock(tagItem.id)"
       >
-        <i class="fa-light fa-paper-plane mr-1" /> {{ tagItem.name }}
+        <i class="fa-regular fa-paper-plane" style="margin-right: 3px"></i> {{ tagItem.name }}
       </div>
     </template>
     <template v-else>
