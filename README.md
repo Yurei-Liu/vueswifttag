@@ -2,7 +2,7 @@
 
 ## 目的
 
-    在Vue框架中，提供可快速跳轉至某區塊的自定義快捷標籤。
+    在Vue框架中，提供點擊後可快速跳轉至某區塊的自定義快捷標籤。
 
 ## 安裝
 
@@ -65,6 +65,12 @@
                     name: "客戶資料區",
                     },
                 ],
+
+                tagBackgroundColor: "#416364",
+                tagBorderColor: "#586853",
+                tagFontColor:"white",
+                tagHoverBackgroundColor: "#f8e4ae",
+                tagHoverFontColor: "#29140a",
             }
         },
 
@@ -96,4 +102,4 @@
 
 ### 範例
 
-See [Demo](https://yurei-liu.github.io/vueswifttag/).
+See [Demo Page](https://yurei-liu.github.io/vueswifttag/).
