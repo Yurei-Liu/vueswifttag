@@ -92,7 +92,7 @@
 | tagHoverBackgroundColor |   快捷標籤懸停底色   |
 | tagHoverFontColor       | 快捷標籤懸停文字顏色 |
 
-##### swiftTagItems 資料格式
+#### swiftTagItems 資料格式
 
 | 欄 位 名 稱 | 欄 位 值 |
 | ----------- | :------: |
